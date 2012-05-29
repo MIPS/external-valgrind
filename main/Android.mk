@@ -14,6 +14,7 @@
 
 LOCAL_PATH:= $(call my-dir)
 
+arch :=
 ifeq ($(TARGET_ARCH),arm)
 	arch := arm
 else ifeq ($(TARGET_ARCH),x86)
